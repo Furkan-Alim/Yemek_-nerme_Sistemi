@@ -1,22 +1,4 @@
-const TOKEN_KEY = "yemek_oneri_token";
-
-export function getToken() {
-  try {
-    return localStorage.getItem(TOKEN_KEY);
-  } catch {
-    return null;
-  }
-}
-
-export function setToken(token) {
-  if (token) localStorage.setItem(TOKEN_KEY, token);
-  else localStorage.removeItem(TOKEN_KEY);
-}
-
-export function authHeaders() {
-  const t = getToken();
-  return t ? { Authorization: `Bearer ${t}` } : {};
-}
+const API_URL = import.meta.env.VITE_API_URL;
 
 export async function apiFetch(path, options = {}) {
   const headers = {
@@ -24,6 +6,11 @@ export async function apiFetch(path, options = {}) {
     ...authHeaders(),
     ...(options.headers || {}),
   };
-  const res = await fetch(path, { ...options, headers });
+
+  const res = await fetch(`${API_URL}${path}`, {
+    ...options,
+    headers,
+  });
+
   return res;
 }
