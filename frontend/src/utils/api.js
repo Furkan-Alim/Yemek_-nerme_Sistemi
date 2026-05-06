@@ -1,5 +1,6 @@
 const TOKEN_KEY = "yemek_oneri_token";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://yemek-onerme-backend.onrender.com";
 
 export function getToken() {
   try {
@@ -26,9 +27,7 @@ export async function apiFetch(path, options = {}) {
     ...(options.headers || {}),
   };
 
-  const url = path.startsWith("http")
-    ? path
-    : `${API_URL}${path}`;
+  const url = path.startsWith("http") ? path : `${API_URL}${path}`;
 
   return fetch(url, {
     ...options,
