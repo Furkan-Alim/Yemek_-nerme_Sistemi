@@ -23,7 +23,32 @@ if (!process.env.JWT_SECRET) {
 }
 
 const app = express();
-app.use(cors());
+
+const allowedOrigins = (
+  process.env.CLIENT_ORIGIN ||
+  process.env.FRONTEND_URL ||
+  ""
+)
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+
+app.use(
+  cors({
+    origin(origin, callback) {
+      if (!origin) {
+        return callback(null, true);
+      }
+      if (allowedOrigins.length === 0) {
+        return callback(null, true);
+      }
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      return callback(null, false);
+    },
+  })
+);
 app.use(express.json({ limit: "1mb" }));
 
 const foodsPath = path.resolve(__dirname, "../frontend/src/data/foods.json");
@@ -53,33 +78,15 @@ async function ensureAuthSchema() {
   try {
     await pool.query(`
       CREATE TABLE IF NOT EXISTS users (
-        id INT AUTO_INCREMENT PRIMARY KEY,
+        id SERIAL PRIMARY KEY,
         email VARCHAR(255) NOT NULL UNIQUE,
         password_hash VARCHAR(255) NOT NULL,
         name VARCHAR(120),
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+        created_at TIMESTAMPTZ DEFAULT NOW()
+      )
     `);
   } catch (e) {
     console.error("[auth] users tablosu:", e.message);
-  }
-  try {
-    await pool.query(
-      `ALTER TABLE user_preferences ADD COLUMN user_id INT NULL`
-    );
-  } catch (e) {
-    if (e.code !== "ER_DUP_FIELDNAME") {
-      console.warn("[auth] user_preferences.user_id:", e.message);
-    }
-  }
-  try {
-    await pool.query(
-      `ALTER TABLE user_preferences ADD INDEX idx_user_id (user_id)`
-    );
-  } catch (e) {
-    if (e.code !== "ER_DUP_KEYNAME") {
-      /* index zaten var */
-    }
   }
 }
 
@@ -115,11 +122,13 @@ app.post("/api/auth/register", async (req, res) => {
     }
 
     const hash = await bcrypt.hash(password, 10);
-    const [result] = await pool.execute(
-      "INSERT INTO users (email, password_hash, name) VALUES (?, ?, ?)",
+    const result = await pool.query(
+      `INSERT INTO users (email, password_hash, name)
+       VALUES ($1, $2, $3)
+       RETURNING id`,
       [email, hash, name]
     );
-    const user = { id: result.insertId, email, name };
+    const user = { id: result.rows[0].id, email, name };
     const token = jwt.sign(
       { sub: user.id, email: user.email },
       JWT_SECRET,
@@ -127,7 +136,7 @@ app.post("/api/auth/register", async (req, res) => {
     );
     res.json({ token, user });
   } catch (err) {
-    if (err.code === "ER_DUP_ENTRY") {
+    if (err.code === "23505") {
       return res.status(409).json({ error: "Bu e-posta zaten kayıtlı" });
     }
     console.error("[/api/auth/register]", err);
@@ -141,8 +150,8 @@ app.post("/api/auth/login", async (req, res) => {
       .trim()
       .toLowerCase();
     const password = String(req.body?.password || "");
-    const [rows] = await pool.execute(
-      "SELECT id, email, password_hash, name FROM users WHERE email = ?",
+    const { rows } = await pool.query(
+      "SELECT id, email, password_hash, name FROM users WHERE email = $1",
       [email]
     );
     if (!rows.length) {
@@ -170,8 +179,8 @@ app.post("/api/auth/login", async (req, res) => {
 
 app.get("/api/auth/me", requireAuth, async (req, res) => {
   try {
-    const [rows] = await pool.execute(
-      "SELECT id, email, name FROM users WHERE id = ?",
+    const { rows } = await pool.query(
+      "SELECT id, email, name FROM users WHERE id = $1",
       [req.user.id]
     );
     if (!rows.length) {
@@ -197,10 +206,11 @@ app.post("/api/recommend", requireAuth, async (req, res) => {
 
     let preferenceId = null;
     try {
-      const [result] = await pool.execute(
+      const ins = await pool.query(
         `INSERT INTO user_preferences
          (session_id, user_id, meal, min_calories, max_calories, cuisines, diet, hunger, budget, mood, user_ip, user_agent)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+         VALUES ($1, $2, $3, $4, $5, $6::jsonb, $7, $8, $9, $10::jsonb, $11, $12)
+         RETURNING id`,
         [
           prefs.sessionId || null,
           req.user.id,
@@ -216,14 +226,16 @@ app.post("/api/recommend", requireAuth, async (req, res) => {
           (req.headers["user-agent"] || "").slice(0, 500),
         ]
       );
-      preferenceId = result.insertId;
+      preferenceId = ins.rows[0].id;
 
       if (sorted.length > 0) {
-        const recValues = sorted.map((f) => [preferenceId, f.id, f.name]);
-        await pool.query(
-          "INSERT INTO recommendations (preference_id, food_id, food_name) VALUES ?",
-          [recValues]
-        );
+        for (const f of sorted) {
+          await pool.query(
+            `INSERT INTO recommendations (preference_id, food_id, food_name)
+             VALUES ($1, $2, $3)`,
+            [preferenceId, f.id, f.name]
+          );
+        }
       }
     } catch (dbErr) {
       console.warn("[db] Kayıt hatası (devam ediliyor):", dbErr.message);
@@ -246,8 +258,9 @@ app.post("/api/click", requireAuth, async (req, res) => {
     if (!preferenceId || !foodId) {
       return res.status(400).json({ error: "preferenceId ve foodId gerekli" });
     }
-    await pool.execute(
-      "UPDATE recommendations SET clicked = 1 WHERE preference_id = ? AND food_id = ?",
+    await pool.query(
+      `UPDATE recommendations SET clicked = TRUE
+       WHERE preference_id = $1 AND food_id = $2`,
       [preferenceId, foodId]
     );
     res.json({ ok: true });
@@ -259,48 +272,56 @@ app.post("/api/click", requireAuth, async (req, res) => {
 
 app.get("/api/stats", requireAuth, async (req, res) => {
   try {
-    const [[{ totalPreferences }]] = await pool.query(
-      "SELECT COUNT(*) AS totalPreferences FROM user_preferences"
+    const tp = await pool.query(
+      "SELECT COUNT(*)::int AS c FROM user_preferences"
     );
-    const [[{ totalRecommendations }]] = await pool.query(
-      "SELECT COUNT(*) AS totalRecommendations FROM recommendations"
+    const tr = await pool.query(
+      "SELECT COUNT(*)::int AS c FROM recommendations"
     );
-    const [[{ totalClicks }]] = await pool.query(
-      "SELECT COUNT(*) AS totalClicks FROM recommendations WHERE clicked = 1"
+    const tc = await pool.query(
+      `SELECT COUNT(*)::int AS c FROM recommendations WHERE clicked = TRUE`
     );
+    const totalPreferences = tp.rows[0].c;
+    const totalRecommendations = tr.rows[0].c;
+    const totalClicks = tc.rows[0].c;
 
-    const [popular] = await pool.query(
-      `SELECT food_name, COUNT(*) AS count
+    const popularRes = await pool.query(
+      `SELECT food_name, COUNT(*)::int AS count
        FROM recommendations
        GROUP BY food_name
        ORDER BY count DESC
        LIMIT 10`
     );
+    const popular = popularRes.rows;
 
-    const [clicked] = await pool.query(
-      `SELECT food_name, SUM(clicked) AS clicks
+    const clickedRes = await pool.query(
+      `SELECT food_name, SUM(clicked::int)::int AS clicks
        FROM recommendations
        GROUP BY food_name
-       HAVING clicks > 0
+       HAVING SUM(clicked::int) > 0
        ORDER BY clicks DESC
        LIMIT 10`
     );
+    const clicked = clickedRes.rows;
 
-    const [byMeal] = await pool.query(
-      `SELECT meal, COUNT(*) AS count
+    const byMealRes = await pool.query(
+      `SELECT meal, COUNT(*)::int AS count
        FROM user_preferences
        GROUP BY meal
        ORDER BY count DESC`
     );
+    const byMeal = byMealRes.rows;
 
-    const [rawCuisines] = await pool.query(
+    const rawCuisinesRes = await pool.query(
       `SELECT cuisines FROM user_preferences WHERE cuisines IS NOT NULL`
     );
+    const rawCuisines = rawCuisinesRes.rows;
     const cuisineCounts = {};
     for (const row of rawCuisines) {
       let arr = row.cuisines;
       try {
         if (typeof arr === "string") arr = JSON.parse(arr);
+        else if (arr && typeof arr === "object" && !Array.isArray(arr)) arr = [];
       } catch {
         arr = [];
       }
@@ -315,13 +336,14 @@ app.get("/api/stats", requireAuth, async (req, res) => {
       .sort((a, b) => b.count - a.count)
       .slice(0, 10);
 
-    const [recentDays] = await pool.query(
-      `SELECT DATE(created_at) AS day, COUNT(*) AS count
+    const recentDaysRes = await pool.query(
+      `SELECT created_at::date AS day, COUNT(*)::int AS count
        FROM user_preferences
-       WHERE created_at >= DATE_SUB(CURDATE(), INTERVAL 6 DAY)
-       GROUP BY DATE(created_at)
+       WHERE created_at >= (CURRENT_DATE - INTERVAL '6 days')
+       GROUP BY created_at::date
        ORDER BY day ASC`
     );
+    const recentDays = recentDaysRes.rows;
 
     res.json({
       totalPreferences,

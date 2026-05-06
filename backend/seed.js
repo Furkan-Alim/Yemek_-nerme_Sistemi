@@ -10,14 +10,14 @@ const foodsPath = path.resolve(__dirname, "../frontend/src/data/foods.json");
 const foods = JSON.parse(fs.readFileSync(foodsPath, "utf-8"));
 
 async function seed() {
-  console.log(`[seed] ${foods.length} yemek MySQL'e yazılacak...`);
+  console.log(`[seed] ${foods.length} yemek PostgreSQL'e yazılacak...`);
   try {
-    await pool.query("DELETE FROM foods");
+    await pool.query("TRUNCATE TABLE foods");
     for (const f of foods) {
-      await pool.execute(
+      await pool.query(
         `INSERT INTO foods
          (id, name, description, image, image_alt, platform_search_name, calories, cuisine, meal, diet, mood, budget, portion, yemeksepeti_query)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9::jsonb, $10::jsonb, $11::jsonb, $12, $13, $14)`,
         [
           f.id,
           f.name,

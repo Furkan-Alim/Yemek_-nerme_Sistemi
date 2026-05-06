@@ -1,29 +1,36 @@
-import mysql from "mysql2/promise";
+import pg from "pg";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-export const pool = mysql.createPool({
-  host: process.env.DB_HOST || "localhost",
-  port: Number(process.env.DB_PORT || 3306),
-  user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "",
-  database: process.env.DB_NAME || "yemek_oneri",
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0,
-  charset: "utf8mb4",
+const connectionString = process.env.DATABASE_URL;
+
+if (!connectionString) {
+  console.warn(
+    "[db] DATABASE_URL tanımlı değil; PostgreSQL bağlantısı kurulamaz."
+  );
+}
+
+export const pool = new pg.Pool({
+  connectionString,
+  max: 10,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 15000,
 });
 
 export async function testConnection() {
+  if (!connectionString) {
+    console.error("[db] DATABASE_URL eksik.");
+    return false;
+  }
   try {
-    const conn = await pool.getConnection();
-    await conn.ping();
-    conn.release();
-    console.log("[db] MySQL bağlantısı OK");
+    const client = await pool.connect();
+    await client.query("SELECT 1");
+    client.release();
+    console.log("[db] PostgreSQL bağlantısı OK");
     return true;
   } catch (err) {
-    console.error("[db] MySQL bağlantı hatası:", err.message);
+    console.error("[db] PostgreSQL bağlantı hatası:", err.message);
     return false;
   }
 }
