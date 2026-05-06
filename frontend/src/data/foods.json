@@ -1,0 +1,4787 @@
+[
+  {
+    "id": 1,
+    "name": "Adana Kebap",
+    "description": "Acılı, közde pişmiş kıyma kebabı. Yanında lavaş, soğan ve sumak ile servis.",
+    "calories": 680,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "adana kebap",
+    "platformSearchName": "Adana",
+    "imageUrl": "/images/foods/adana-kebap.jpg",
+    "imageAlt": "Adana Kebap",
+    "imageSlug": "adana-kebap"
+  },
+  {
+    "id": 2,
+    "name": "Urfa Kebap",
+    "description": "Acısız, yumuşak dokulu kıyma kebabı. Közlenmiş sebzelerle.",
+    "calories": 650,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "urfa kebap",
+    "platformSearchName": "Urfa",
+    "imageUrl": "/images/foods/urfa-kebap.jpg",
+    "imageAlt": "Urfa Kebap",
+    "imageSlug": "urfa-kebap"
+  },
+  {
+    "id": 3,
+    "name": "İskender",
+    "description": "Tereyağlı, domates soslu, yoğurtlu döner. Türk mutfağının klasiği.",
+    "calories": 850,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "iskender kebap",
+    "platformSearchName": "İskender",
+    "imageUrl": "/images/foods/iskender.jpg",
+    "imageAlt": "İskender",
+    "imageSlug": "iskender"
+  },
+  {
+    "id": 4,
+    "name": "Lahmacun",
+    "description": "İnce hamur, kıymalı, limon ve maydanozla enfes.",
+    "calories": 280,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "lahmacun",
+    "platformSearchName": "Lahmacun",
+    "imageUrl": "/images/foods/lahmacun.jpg",
+    "imageAlt": "Lahmacun",
+    "imageSlug": "lahmacun"
+  },
+  {
+    "id": 5,
+    "name": "Kıymalı Pide",
+    "description": "Karadeniz usulü ince hamur, bol kıymalı pide.",
+    "calories": 620,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kıymalı pide",
+    "platformSearchName": "Kıymalı Pide",
+    "imageUrl": "/images/foods/kiymali-pide.jpg",
+    "imageAlt": "Kıymalı Pide",
+    "imageSlug": "kiymali-pide"
+  },
+  {
+    "id": 6,
+    "name": "Kayseri Mantısı",
+    "description": "El açması küçük mantı, sarımsaklı yoğurt ve tereyağlı sos.",
+    "calories": 560,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "mantı",
+    "platformSearchName": "Mantı",
+    "imageUrl": "/images/foods/kayseri-mantisi.jpg",
+    "imageAlt": "Kayseri Mantısı",
+    "imageSlug": "kayseri-mantisi"
+  },
+  {
+    "id": 7,
+    "name": "Izgara Köfte",
+    "description": "Mangalda pişmiş baharatlı köfte, pilav ve salata ile.",
+    "calories": 580,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ızgara köfte",
+    "platformSearchName": "Izgara Köfte",
+    "imageUrl": "/images/foods/izgara-kofte.jpg",
+    "imageAlt": "Izgara Köfte",
+    "imageSlug": "izgara-kofte"
+  },
+  {
+    "id": 8,
+    "name": "Tavuk Döner Dürüm",
+    "description": "Marine tavuk, lavaş, taze sebzelerle sarılmış dürüm.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk döner dürüm",
+    "platformSearchName": "Tavuk Döner",
+    "imageUrl": "/images/foods/tavuk-durum.jpg",
+    "imageAlt": "Tavuk Döner Dürüm",
+    "imageSlug": "tavuk-durum"
+  },
+  {
+    "id": 9,
+    "name": "Et Döner Porsiyon",
+    "description": "Dana eti döner, pilav, patates ve salata eşliğinde.",
+    "calories": 780,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "et döner porsiyon",
+    "platformSearchName": "Et Döner",
+    "imageUrl": "/images/foods/et-doner.jpg",
+    "imageAlt": "Et Döner Porsiyon",
+    "imageSlug": "et-doner"
+  },
+  {
+    "id": 10,
+    "name": "Künefe",
+    "description": "Kadayıf, peynir, şerbet. Antep usulü sıcak tatlı.",
+    "calories": 480,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "künefe",
+    "platformSearchName": "Künefe",
+    "imageUrl": "/images/foods/kunefe.jpg",
+    "imageAlt": "Künefe",
+    "imageSlug": "kunefe"
+  },
+  {
+    "id": 11,
+    "name": "Fıstıklı Baklava",
+    "description": "Antep fıstıklı, katlı, şerbetli geleneksel baklava.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "fıstıklı baklava",
+    "platformSearchName": "Fıstıklı Baklava",
+    "imageUrl": "/images/foods/fistikli-baklava.png",
+    "imageAlt": "Fıstıklı Baklava",
+    "imageSlug": "fistikli-baklava"
+  },
+  {
+    "id": 12,
+    "name": "Mercimek Çorbası",
+    "description": "Sarı mercimek, havuç, soğan. Klasik Türk çorbası.",
+    "calories": 220,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "mercimek çorbası",
+    "platformSearchName": "Mercimek Çorbası",
+    "imageUrl": "/images/foods/mercimek-corbasi.jpg",
+    "imageAlt": "Mercimek Çorbası",
+    "imageSlug": "mercimek-corbasi"
+  },
+  {
+    "id": 13,
+    "name": "Ezogelin Çorbası",
+    "description": "Kırmızı mercimek, bulgur, naneli. Baharatlı sıcak çorba.",
+    "calories": 240,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "ezogelin çorbası",
+    "platformSearchName": "Ezogelin Çorbası",
+    "imageUrl": "/images/foods/ezogelin-corbasi.jpg",
+    "imageAlt": "Ezogelin Çorbası",
+    "imageSlug": "ezogelin-corbasi"
+  },
+  {
+    "id": 14,
+    "name": "İçli Köfte",
+    "description": "Bulgur kabuk, içinde kıymalı harç. Kızartma veya haşlama.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "içli köfte",
+    "platformSearchName": "İçli Köfte",
+    "imageUrl": "/images/foods/icli-kofte.jpg",
+    "imageAlt": "İçli Köfte",
+    "imageSlug": "icli-kofte"
+  },
+  {
+    "id": 15,
+    "name": "Karnıyarık",
+    "description": "Kıyma harçlı patlıcan yemeği, pilav yanında.",
+    "calories": 490,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "karnıyarık",
+    "platformSearchName": "Karnıyarık",
+    "imageUrl": "/images/foods/karniyarik.jpg",
+    "imageAlt": "Karnıyarık",
+    "imageSlug": "karniyarik"
+  },
+  {
+    "id": 16,
+    "name": "Menemen",
+    "description": "Domates, biber, yumurta. Klasik Türk kahvaltılığı.",
+    "calories": 320,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "menemen",
+    "platformSearchName": "Menemen",
+    "imageUrl": "/images/foods/menemen.jpg",
+    "imageAlt": "Menemen",
+    "imageSlug": "menemen"
+  },
+  {
+    "id": 17,
+    "name": "Kumpir",
+    "description": "Fırın patates, tereyağı, kaşar ve bolca malzeme.",
+    "calories": 720,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "kumpir",
+    "platformSearchName": "Kumpir",
+    "imageUrl": "/images/foods/kumpir.jpg",
+    "imageAlt": "Kumpir",
+    "imageSlug": "kumpir"
+  },
+  {
+    "id": 18,
+    "name": "Tantuni",
+    "description": "Mersin usulü, küçük doğranmış et, lavaş, maydanoz.",
+    "calories": 540,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "tantuni",
+    "platformSearchName": "Tantuni",
+    "imageUrl": "/images/foods/tantuni.jpg",
+    "imageAlt": "Tantuni",
+    "imageSlug": "tantuni"
+  },
+  {
+    "id": 19,
+    "name": "Çiğ Köfte Dürüm",
+    "description": "Etsiz çiğ köfte, marul, nar ekşisi, limon ile sarılmış.",
+    "calories": 410,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "çiğ köfte",
+    "platformSearchName": "Çiğ Köfte",
+    "imageUrl": "/images/foods/cig-kofte-durum.jpg",
+    "imageAlt": "Çiğ Köfte Dürüm",
+    "imageSlug": "cig-kofte-durum"
+  },
+  {
+    "id": 20,
+    "name": "Kuru Fasulye Pilav",
+    "description": "Etli kuru fasulye, yanında pilav ve turşu. Ev yemeği klasiği.",
+    "calories": 620,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "kuru fasulye pilav",
+    "platformSearchName": "Kuru Fasulye",
+    "imageUrl": "/images/foods/kuru-fasulye-pilav.jpg",
+    "imageAlt": "Kuru Fasulye Pilav",
+    "imageSlug": "kuru-fasulye-pilav"
+  },
+  {
+    "id": 21,
+    "name": "Su Böreği",
+    "description": "El açması yufka, peynirli, tereyağlı Türk böreği.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "su böreği",
+    "platformSearchName": "Su Böreği",
+    "imageUrl": "/images/foods/su-boregi.jpg",
+    "imageAlt": "Su Böreği",
+    "imageSlug": "su-boregi"
+  },
+  {
+    "id": 22,
+    "name": "Simit",
+    "description": "Susamlı, çıtır Türk simiti. Çayla bire bir.",
+    "calories": 260,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "simit",
+    "platformSearchName": "Simit",
+    "imageUrl": "/images/foods/simit.jpg",
+    "imageAlt": "Simit",
+    "imageSlug": "simit"
+  },
+  {
+    "id": 23,
+    "name": "Serpme Kahvaltı",
+    "description": "Peynirler, zeytin, reçeller, yumurta, börek. Tam Türk kahvaltısı.",
+    "calories": 950,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "serpme kahvaltı",
+    "platformSearchName": "Serpme Kahvaltı",
+    "imageUrl": "/images/foods/serpme-kahvalti.jpg",
+    "imageAlt": "Serpme Kahvaltı",
+    "imageSlug": "serpme-kahvalti"
+  },
+  {
+    "id": 24,
+    "name": "Pilav Üstü Tavuk",
+    "description": "Tereyağlı pirinç pilavı üzerine haşlama tavuk.",
+    "calories": 580,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "pilav üstü tavuk",
+    "platformSearchName": "Pilav Üstü",
+    "imageUrl": "/images/foods/pilav-ustu-tavuk.jpg",
+    "imageAlt": "Pilav Üstü Tavuk",
+    "imageSlug": "pilav-ustu-tavuk"
+  },
+  {
+    "id": 25,
+    "name": "Sigara Böreği",
+    "description": "İnce yufka, peynirli, kızartma atıştırmalık börek.",
+    "calories": 310,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "sigara böreği",
+    "platformSearchName": "Sigara Böreği",
+    "imageUrl": "/images/foods/sigara-boregi.jpg",
+    "imageAlt": "Sigara Böreği",
+    "imageSlug": "sigara-boregi"
+  },
+  {
+    "id": 26,
+    "name": "Cheeseburger",
+    "description": "Dana köfte, eritilmiş cheddar, marul, domates, soğan.",
+    "calories": 720,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "cheeseburger",
+    "platformSearchName": "Cheeseburger",
+    "imageUrl": "/images/foods/cheeseburger.jpg",
+    "imageAlt": "Cheeseburger",
+    "imageSlug": "cheeseburger"
+  },
+  {
+    "id": 27,
+    "name": "Chicken Burger",
+    "description": "Çıtır tavuk, mayo, marul, domates. Klasik tavuk burger.",
+    "calories": 640,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "chicken burger",
+    "platformSearchName": "Chicken Burger",
+    "imageUrl": "/images/foods/chicken-burger.jpg",
+    "imageAlt": "Chicken Burger",
+    "imageSlug": "chicken-burger"
+  },
+  {
+    "id": 28,
+    "name": "Patates Kızartması",
+    "description": "Çıtır, altın sarısı, tuzlu patates kızartması.",
+    "calories": 380,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "patates kızartması",
+    "platformSearchName": "Patates Kızartması",
+    "imageUrl": "/images/foods/patates-kizartmasi.jpg",
+    "imageAlt": "Patates Kızartması",
+    "imageSlug": "patates-kizartmasi"
+  },
+  {
+    "id": 29,
+    "name": "Tavuk Nugget",
+    "description": "Çıtır panelenmiş tavuk lokmaları, bol soslu.",
+    "calories": 420,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "tavuk nugget",
+    "platformSearchName": "Tavuk Nugget",
+    "imageUrl": "/images/foods/tavuk-nugget.jpg",
+    "imageAlt": "Tavuk Nugget",
+    "imageSlug": "tavuk-nugget"
+  },
+  {
+    "id": 30,
+    "name": "Tavuk Kanat",
+    "description": "BBQ soslu ya da acılı, közde pişmiş tavuk kanatları.",
+    "calories": 520,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk kanat",
+    "platformSearchName": "Tavuk Kanat",
+    "imageUrl": "/images/foods/tavuk-kanat.jpg",
+    "imageAlt": "Tavuk Kanat",
+    "imageSlug": "tavuk-kanat"
+  },
+  {
+    "id": 31,
+    "name": "Hot Dog",
+    "description": "Sosis, hardal, ketçap, soğan ve ekmek.",
+    "calories": 460,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "hot dog",
+    "platformSearchName": "Hot Dog",
+    "imageUrl": "/images/foods/hot-dog.png",
+    "imageAlt": "Hot Dog",
+    "imageSlug": "hot-dog"
+  },
+  {
+    "id": 32,
+    "name": "BBQ Ribs",
+    "description": "Uzun saatler pişmiş, BBQ soslu dana kaburga.",
+    "calories": 920,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı",
+      "baharatlı"
+    ],
+    "budget": "premium",
+    "portion": "büyük",
+    "yemeksepeti_query": "bbq ribs",
+    "platformSearchName": "Bbq Ribs",
+    "imageUrl": "/images/foods/bbq-ribs.jpg",
+    "imageAlt": "BBQ Ribs",
+    "imageSlug": "bbq-ribs"
+  },
+  {
+    "id": 33,
+    "name": "Tavuklu Wrap",
+    "description": "Izgara tavuk, taze sebze, sos, tortilla içinde.",
+    "calories": 480,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuklu wrap",
+    "platformSearchName": "Tavuklu Wrap",
+    "imageUrl": "/images/foods/tavuklu-wrap.jpg",
+    "imageAlt": "Tavuklu Wrap",
+    "imageSlug": "tavuklu-wrap"
+  },
+  {
+    "id": 34,
+    "name": "Fried Chicken",
+    "description": "Çıtır kaplamalı kızarmış tavuk, baharatlı sos ile.",
+    "calories": 680,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "fried chicken",
+    "platformSearchName": "Fried Chicken",
+    "imageUrl": "/images/foods/fried-chicken.jpg",
+    "imageAlt": "Fried Chicken",
+    "imageSlug": "fried-chicken"
+  },
+  {
+    "id": 35,
+    "name": "Soğan Halkası",
+    "description": "Çıtır panelenmiş soğan halkaları, ranch sos ile.",
+    "calories": 340,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "soğan halkası",
+    "platformSearchName": "Soğan Halkası",
+    "imageUrl": "/images/foods/sogan-halkasi.jpg",
+    "imageAlt": "Soğan Halkası",
+    "imageSlug": "sogan-halkasi"
+  },
+  {
+    "id": 36,
+    "name": "Margherita Pizza",
+    "description": "Domates sos, mozzarella, taze fesleğen. İtalyan klasiği.",
+    "calories": 760,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "margherita pizza",
+    "platformSearchName": "Margherita Pizza",
+    "imageUrl": "/images/foods/margherita-pizza.jpg",
+    "imageAlt": "Margherita Pizza",
+    "imageSlug": "margherita-pizza"
+  },
+  {
+    "id": 37,
+    "name": "Pepperoni Pizza",
+    "description": "Pepperoni sucuğu, mozzarella, domates sos.",
+    "calories": 840,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "pepperoni pizza",
+    "platformSearchName": "Pepperoni Pizza",
+    "imageUrl": "/images/foods/pepperoni-pizza.jpg",
+    "imageAlt": "Pepperoni Pizza",
+    "imageSlug": "pepperoni-pizza"
+  },
+  {
+    "id": 38,
+    "name": "Pasta Bolognese",
+    "description": "Spagetti, kıymalı domates soslu İtalyan makarnası.",
+    "calories": 680,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "spaghetti bolognese",
+    "platformSearchName": "Spaghetti Bolognese",
+    "imageUrl": "/images/foods/pasta-bolognese.jpg",
+    "imageAlt": "Pasta Bolognese",
+    "imageSlug": "pasta-bolognese"
+  },
+  {
+    "id": 39,
+    "name": "Pasta Carbonara",
+    "description": "Kremalı, yumurta ve pastırmalı İtalyan makarnası.",
+    "calories": 820,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "carbonara",
+    "platformSearchName": "Carbonara",
+    "imageUrl": "/images/foods/pasta-carbonara.jpg",
+    "imageAlt": "Pasta Carbonara",
+    "imageSlug": "pasta-carbonara"
+  },
+  {
+    "id": 40,
+    "name": "Lazanya",
+    "description": "Katlı, kıymalı, beşamel soslu fırın makarnası.",
+    "calories": 780,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "lazanya",
+    "platformSearchName": "Lazanya",
+    "imageUrl": "/images/foods/lazanya.jpg",
+    "imageAlt": "Lazanya",
+    "imageSlug": "lazanya"
+  },
+  {
+    "id": 41,
+    "name": "Risotto",
+    "description": "Kremalı, mantarlı, parmesanlı İtalyan pilavı.",
+    "calories": 620,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "risotto",
+    "platformSearchName": "Risotto",
+    "imageUrl": "/images/foods/risotto.jpg",
+    "imageAlt": "Risotto",
+    "imageSlug": "risotto"
+  },
+  {
+    "id": 42,
+    "name": "Tiramisu",
+    "description": "Kahveli, mascarponeli, kakao tozlu İtalyan tatlısı.",
+    "calories": 420,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "tiramisu",
+    "platformSearchName": "Tiramisu",
+    "imageUrl": "/images/foods/tiramisu.jpg",
+    "imageAlt": "Tiramisu",
+    "imageSlug": "tiramisu"
+  },
+  {
+    "id": 43,
+    "name": "Sushi California",
+    "description": "Avokado, yengeç, salatalık, susamlı sushi rulosu.",
+    "calories": 380,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "sushi",
+    "platformSearchName": "Sushi",
+    "imageUrl": "/images/foods/sushi-california.jpg",
+    "imageAlt": "Sushi California",
+    "imageSlug": "sushi-california"
+  },
+  {
+    "id": 44,
+    "name": "Ramen",
+    "description": "Japon eriştesi, et suyu, yumurta ve et dilimleri.",
+    "calories": 560,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "ramen",
+    "platformSearchName": "Ramen",
+    "imageUrl": "/images/foods/ramen.jpg",
+    "imageAlt": "Ramen",
+    "imageSlug": "ramen"
+  },
+  {
+    "id": 45,
+    "name": "Pad Thai",
+    "description": "Tayland usulü eriştesi, karides, fıstık, limon.",
+    "calories": 540,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "pad thai",
+    "platformSearchName": "Pad Thai",
+    "imageUrl": "/images/foods/pad-thai.jpg",
+    "imageAlt": "Pad Thai",
+    "imageSlug": "pad-thai"
+  },
+  {
+    "id": 46,
+    "name": "Çin Usulü Tavuk",
+    "description": "Soya soslu, sebzeli, hafif baharatlı tavuk, pilav ile.",
+    "calories": 580,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "çin usulü tavuk",
+    "platformSearchName": "Çin Usulü",
+    "imageUrl": "/images/foods/cin-usulu-tavuk.jpg",
+    "imageAlt": "Çin Usulü Tavuk",
+    "imageSlug": "cin-usulu-tavuk"
+  },
+  {
+    "id": 47,
+    "name": "Poke Bowl",
+    "description": "Pirinç, somon, avokado, edamame, soya sos.",
+    "calories": 480,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "poke bowl",
+    "platformSearchName": "Poke Bowl",
+    "imageUrl": "/images/foods/poke-bowl.jpg",
+    "imageAlt": "Poke Bowl",
+    "imageSlug": "poke-bowl"
+  },
+  {
+    "id": 48,
+    "name": "Spring Roll",
+    "description": "Çıtır hamur içinde sebzeli Uzak Doğu rulo.",
+    "calories": 280,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "spring roll",
+    "platformSearchName": "Spring Roll",
+    "imageUrl": "/images/foods/spring-roll.jpg",
+    "imageAlt": "Spring Roll",
+    "imageSlug": "spring-roll"
+  },
+  {
+    "id": 49,
+    "name": "Taco",
+    "description": "Meksika usulü, kıymalı, salsa ve kaşarlı tortilla.",
+    "calories": 420,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "taco",
+    "platformSearchName": "Taco",
+    "imageUrl": "/images/foods/taco.jpg",
+    "imageAlt": "Taco",
+    "imageSlug": "taco"
+  },
+  {
+    "id": 50,
+    "name": "Burrito",
+    "description": "Büyük tortilla içinde pirinç, fasulye, et ve sos.",
+    "calories": 720,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "burrito",
+    "platformSearchName": "Burrito",
+    "imageUrl": "/images/foods/burrito.jpg",
+    "imageAlt": "Burrito",
+    "imageSlug": "burrito"
+  },
+  {
+    "id": 51,
+    "name": "Nachos",
+    "description": "Mısır cipsi, eritilmiş peynir, jalapeño, guacamole.",
+    "calories": 560,
+    "cuisine": "Meksika",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "nachos",
+    "platformSearchName": "Nachos",
+    "imageUrl": "/images/foods/nachos.jpg",
+    "imageAlt": "Nachos",
+    "imageSlug": "nachos"
+  },
+  {
+    "id": 52,
+    "name": "Sütlaç",
+    "description": "Fırında pişmiş, tarçınlı geleneksel Türk sütlü tatlısı.",
+    "calories": 280,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "sütlaç",
+    "platformSearchName": "Sütlaç",
+    "imageUrl": "/images/foods/sutlac.jpg",
+    "imageAlt": "Sütlaç",
+    "imageSlug": "sutlac"
+  },
+  {
+    "id": 53,
+    "name": "Kazandibi",
+    "description": "Tabanı karamelize, sütlü, yumuşak Türk tatlısı.",
+    "calories": 320,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "kazandibi",
+    "platformSearchName": "Kazandibi",
+    "imageUrl": "/images/foods/kazandibi.jpg",
+    "imageAlt": "Kazandibi",
+    "imageSlug": "kazandibi"
+  },
+  {
+    "id": 54,
+    "name": "Trileçe",
+    "description": "Üç çeşit sütle ıslatılmış, karamel soslu kek.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "trileçe",
+    "platformSearchName": "Trileçe",
+    "imageUrl": "/images/foods/trilece.jpg",
+    "imageAlt": "Trileçe",
+    "imageSlug": "trilece"
+  },
+  {
+    "id": 55,
+    "name": "Waffle",
+    "description": "Belçika usulü çıtır waffle, çikolata, meyve ve dondurma.",
+    "calories": 620,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "waffle",
+    "platformSearchName": "Waffle",
+    "imageUrl": "/images/foods/waffle.jpg",
+    "imageAlt": "Waffle",
+    "imageSlug": "waffle"
+  },
+  {
+    "id": 56,
+    "name": "Pancake",
+    "description": "Kat kat krep, akçaağaç şurubu ve yaban mersini.",
+    "calories": 540,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "pancake",
+    "platformSearchName": "Pancake",
+    "imageUrl": "/images/foods/pancake.jpg",
+    "imageAlt": "Pancake",
+    "imageSlug": "pancake"
+  },
+  {
+    "id": 57,
+    "name": "Cheesecake",
+    "description": "Krem peynirli, bisküvi tabanlı New York cheesecake.",
+    "calories": 440,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "cheesecake",
+    "platformSearchName": "Cheesecake",
+    "imageUrl": "/images/foods/cheesecake.jpg",
+    "imageAlt": "Cheesecake",
+    "imageSlug": "cheesecake"
+  },
+  {
+    "id": 58,
+    "name": "Çikolatalı Sufle",
+    "description": "Sıcak, akışkan çikolatalı, dondurmalı enfes sufle.",
+    "calories": 480,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "sufle",
+    "platformSearchName": "Sufle",
+    "imageUrl": "/images/foods/cikolatali-sufle.jpg",
+    "imageAlt": "Çikolatalı Sufle",
+    "imageSlug": "cikolatali-sufle"
+  },
+  {
+    "id": 59,
+    "name": "Caesar Salata",
+    "description": "Marul, parmesan, kruton, ızgara tavuk, özel sos.",
+    "calories": 380,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "caesar salata",
+    "platformSearchName": "Caesar Salata",
+    "imageUrl": "/images/foods/sezar-salata.jpg",
+    "imageAlt": "Caesar Salata",
+    "imageSlug": "sezar-salata"
+  },
+  {
+    "id": 60,
+    "name": "Kinoa Bowl",
+    "description": "Kinoa, avokado, nohut, sebzeler, tahin sos.",
+    "calories": 420,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "kinoa bowl",
+    "platformSearchName": "Kinoa Bowl",
+    "imageUrl": "/images/foods/kinoa-bowl.jpg",
+    "imageAlt": "Kinoa Bowl",
+    "imageSlug": "kinoa-bowl"
+  },
+  {
+    "id": 61,
+    "name": "Avokado Toast",
+    "description": "Tam tahıllı ekmek, ezilmiş avokado, yumurta, pul biber.",
+    "calories": 320,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "avokado toast",
+    "platformSearchName": "Avokado Toast",
+    "imageUrl": "/images/foods/avokado-toast.jpg",
+    "imageAlt": "Avokado Toast",
+    "imageSlug": "avokado-toast"
+  },
+  {
+    "id": 62,
+    "name": "Smoothie Bowl",
+    "description": "Frozen meyve püresi, granola, taze meyve, chia.",
+    "calories": 360,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "tatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "smoothie bowl",
+    "platformSearchName": "Smoothie Bowl",
+    "imageUrl": "/images/foods/smoothie-bowl.jpg",
+    "imageAlt": "Smoothie Bowl",
+    "imageSlug": "smoothie-bowl"
+  },
+  {
+    "id": 63,
+    "name": "Izgara Somon",
+    "description": "Izgarada pişmiş somon, kuşkonmaz ve limon ile.",
+    "calories": 520,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "ızgara somon",
+    "platformSearchName": "Izgara Somon",
+    "imageUrl": "/images/foods/izgara-somon.jpg",
+    "imageAlt": "Izgara Somon",
+    "imageSlug": "izgara-somon"
+  },
+  {
+    "id": 64,
+    "name": "Karides Güveç",
+    "description": "Sacda pişmiş, domatesli, kaşarlı karides güveç.",
+    "calories": 460,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "karides güveç",
+    "platformSearchName": "Karides Güveç",
+    "imageUrl": "/images/foods/karides-guvec.jpg",
+    "imageAlt": "Karides Güveç",
+    "imageSlug": "karides-guvec"
+  },
+  {
+    "id": 65,
+    "name": "Levrek Izgara",
+    "description": "Taze levrek, zeytinyağı, limon, rokalı salata ile.",
+    "calories": 440,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "levrek ızgara",
+    "platformSearchName": "Levrek Izgara",
+    "imageUrl": "/images/foods/levrek-izgara.jpg",
+    "imageAlt": "Levrek Izgara",
+    "imageSlug": "levrek-izgara"
+  },
+  {
+    "id": 66,
+    "name": "Kaşarlı Tost",
+    "description": "Kaşar peynirli, tereyağında kızartılmış klasik tost.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "kaşarlı tost",
+    "platformSearchName": "Kaşarlı Tost",
+    "imageUrl": "/images/foods/kasarli-tost.jpg",
+    "imageAlt": "Kaşarlı Tost",
+    "imageSlug": "kasarli-tost"
+  },
+  {
+    "id": 67,
+    "name": "Karışık Tost",
+    "description": "Sucuk, kaşar, sosis karışımlı ekstra tost.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "karışık tost",
+    "platformSearchName": "Karışık Tost",
+    "imageUrl": "/images/foods/karisik-tost.jpg",
+    "imageAlt": "Karışık Tost",
+    "imageSlug": "karisik-tost"
+  },
+  {
+    "id": 68,
+    "name": "Omlet",
+    "description": "Sebzeli, peynirli kabarık omlet. Sağlıklı kahvaltı.",
+    "calories": 280,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "omlet",
+    "platformSearchName": "Omlet",
+    "imageUrl": "/images/foods/omlet.jpg",
+    "imageAlt": "Omlet",
+    "imageSlug": "omlet"
+  },
+  {
+    "id": 69,
+    "name": "Falafel Wrap",
+    "description": "Nohut köftesi, humus, tahin, sebzelerle sarılmış wrap.",
+    "calories": 460,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "falafel",
+    "platformSearchName": "Falafel",
+    "imageUrl": "/images/foods/falafel-wrap.jpg",
+    "imageAlt": "Falafel Wrap",
+    "imageSlug": "falafel-wrap"
+  },
+  {
+    "id": 70,
+    "name": "Humus Tabağı",
+    "description": "Ezilmiş nohut, tahin, zeytinyağı, ekmek ile.",
+    "calories": 320,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "humus",
+    "platformSearchName": "Humus",
+    "imageUrl": "/images/foods/humus-tabagi.jpg",
+    "imageAlt": "Humus Tabağı",
+    "imageSlug": "humus-tabagi"
+  },
+  {
+    "id": 71,
+    "name": "Ali Nazik",
+    "description": "Köz patlıcan yoğurdu üzerinde kıymalı et. Gaziantep klasiği.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ali nazik",
+    "platformSearchName": "Ali Nazik",
+    "imageUrl": "/images/foods/ali-nazik.jpg",
+    "imageAlt": "Ali Nazik",
+    "imageSlug": "ali-nazik"
+  },
+  {
+    "id": 72,
+    "name": "Midye Dolma",
+    "description": "Limon sıkılmış sokak midyesi, pilavlı dolma.",
+    "calories": 320,
+    "cuisine": "Türk",
+    "meal": [
+      "Atıştırmalık",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "midye dolma",
+    "platformSearchName": "Midye Dolma",
+    "imageUrl": "/images/foods/midye-dolma.jpg",
+    "imageAlt": "Midye Dolma",
+    "imageSlug": "midye-dolma"
+  },
+  {
+    "id": 73,
+    "name": "Balık Ekmek",
+    "description": "Izgara balık, soğan, marul, limon ile ekmeğin arasında.",
+    "calories": 480,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "balık ekmek",
+    "platformSearchName": "Balık Ekmek",
+    "imageUrl": "/images/foods/balik-ekmek.jpg",
+    "imageAlt": "Balık Ekmek",
+    "imageSlug": "balik-ekmek"
+  },
+  {
+    "id": 74,
+    "name": "Gözleme",
+    "description": "Taze açılmış yufka, ıspanaklı veya peynirli ocakbaşı gözleme.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "gözleme",
+    "platformSearchName": "Gözleme",
+    "imageUrl": "/images/foods/gozleme.jpg",
+    "imageAlt": "Gözleme",
+    "imageSlug": "gozleme"
+  },
+  {
+    "id": 75,
+    "name": "Çoban Salata",
+    "description": "Domates, salatalık, biber, soğan, zeytinyağı ve nar ekşisi.",
+    "calories": 180,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "çoban salata",
+    "platformSearchName": "Çoban Salata",
+    "imageUrl": "/images/foods/coban-salata.jpg",
+    "imageAlt": "Çoban Salata",
+    "imageSlug": "coban-salata"
+  },
+  {
+    "id": 76,
+    "name": "Kokoreç",
+    "description": "Baharatlı kuzu iç organ, ekmek veya yarım ekmeğin arasında.",
+    "calories": 620,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kokoreç",
+    "platformSearchName": "Kokoreç",
+    "imageUrl": "/images/foods/kokorec.jpg",
+    "imageAlt": "Kokoreç",
+    "imageSlug": "kokorec"
+  },
+  {
+    "id": 77,
+    "name": "Karnaval Burger",
+    "description": "Çift köfte, özel sos, turşu—üç kat tırmanış.",
+    "calories": 890,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "double burger",
+    "platformSearchName": "Double Burger",
+    "imageUrl": "/images/foods/karnaval-burger.jpg",
+    "imageAlt": "Karnaval Burger",
+    "imageSlug": "karnaval-burger"
+  },
+  {
+    "id": 78,
+    "name": "Falafel Tabağı",
+    "description": "Kızarmış nohut köftesi, humus, salata, pide ekmeği.",
+    "calories": 440,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "falafel tabak",
+    "platformSearchName": "Falafel Tabak",
+    "imageUrl": "/images/foods/falafel-tabagi.jpg",
+    "imageAlt": "Falafel Tabağı",
+    "imageSlug": "falafel-tabagi"
+  },
+  {
+    "id": 79,
+    "name": "Mozzarella Stick",
+    "description": "Çıtır kaplamalı eritilmiş peynir çubukları, marinara sos.",
+    "calories": 360,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Atıştırmalık",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "mozzarella stick",
+    "platformSearchName": "Mozzarella Stick",
+    "imageUrl": "/images/foods/mozzarella-stick.jpg",
+    "imageAlt": "Mozzarella Stick",
+    "imageSlug": "mozzarella-stick"
+  },
+  {
+    "id": 80,
+    "name": "Mozzarella Caprese",
+    "description": "Domates, fesleğen, zeytinyağı, taze mozzarella dilimleri.",
+    "calories": 280,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "caprese",
+    "platformSearchName": "Caprese",
+    "imageUrl": "/images/foods/mozzarella-caprese.jpg",
+    "imageAlt": "Mozzarella Caprese",
+    "imageSlug": "mozzarella-caprese"
+  },
+  {
+    "id": 81,
+    "name": "Penne Arrabbiata",
+    "description": "Domates, sarımsak, acılı biber ile kızgın İtalyan sosu.",
+    "calories": 580,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "penne arrabbiata",
+    "platformSearchName": "Penne Arrabbiata",
+    "imageUrl": "/images/foods/penne-arrabbiata.jpg",
+    "imageAlt": "Penne Arrabbiata",
+    "imageSlug": "penne-arrabbiata"
+  },
+  {
+    "id": 82,
+    "name": "Ton Balıklı Salata",
+    "description": "Marul, mısır, zeytin, domates ve ton balığı.",
+    "calories": 340,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ton balıklı salata",
+    "platformSearchName": "Ton Balıklı",
+    "imageUrl": "/images/foods/ton-balikli-salata.jpg",
+    "imageAlt": "Ton Balıklı Salata",
+    "imageSlug": "ton-balikli-salata"
+  },
+  {
+    "id": 83,
+    "name": "Bibimbap",
+    "description": "Kore usulü pilav kas, sebze, yumurta, acı sos.",
+    "calories": 520,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "bibimbap",
+    "platformSearchName": "Bibimbap",
+    "imageUrl": "/images/foods/bibimbap.jpg",
+    "imageAlt": "Bibimbap",
+    "imageSlug": "bibimbap"
+  },
+  {
+    "id": 84,
+    "name": "Dondurma Külah",
+    "description": "Maraş usulü sert dondurma, fıstıklı külah.",
+    "calories": 280,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "dondurma",
+    "platformSearchName": "Dondurma",
+    "imageUrl": "/images/foods/dondurma-kulah.jpg",
+    "imageAlt": "Dondurma Külah",
+    "imageSlug": "dondurma-kulah"
+  },
+  {
+    "id": 85,
+    "name": "Profiterol",
+    "description": "Çikolata soslu küçük profiterol topları.",
+    "calories": 400,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "profiterol",
+    "platformSearchName": "Profiterol",
+    "imageUrl": "/images/foods/profiterol.jpg",
+    "imageAlt": "Profiterol",
+    "imageSlug": "profiterol"
+  },
+  {
+    "id": 86,
+    "name": "Kıymalı Makarna",
+    "description": "Ev yapımı kıyma soslu klasik tel şehriye veya makarna.",
+    "calories": 640,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "kıymalı makarna",
+    "platformSearchName": "Kıymalı Makarna",
+    "imageUrl": "/images/foods/kiymali-makarna.jpg",
+    "imageAlt": "Kıymalı Makarna",
+    "imageSlug": "kiymali-makarna"
+  },
+  {
+    "id": 87,
+    "name": "Hünkar Beğendi",
+    "description": "Köz patlıcan pure üzerinde yumuşacık et yemeği.",
+    "calories": 580,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "hünkar beğendi",
+    "platformSearchName": "Hünkar Beğendi",
+    "imageUrl": "/images/foods/hunkar-begendi.jpg",
+    "imageAlt": "Hünkar Beğendi",
+    "imageSlug": "hunkar-begendi"
+  },
+  {
+    "id": 88,
+    "name": "Kayseri Pastırması",
+    "description": "İnce dilim pastırma, yanında ekmek veya peynir tabağı.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "küçük",
+    "yemeksepeti_query": "Kayseri pastırması",
+    "platformSearchName": "Kayseri Pastırması",
+    "imageUrl": "/images/foods/kayseri-pastirmasi.jpg",
+    "imageAlt": "Kayseri Pastırması",
+    "imageSlug": "kayseri-pastirmasi"
+  },
+  {
+    "id": 89,
+    "name": "Meyve Sepeti Waffle",
+    "description": "Çilek, muz, kivi ile süslenmiş waffle ve krema.",
+    "calories": 580,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "meyveli waffle",
+    "platformSearchName": "Meyveli Waffle",
+    "imageUrl": "/images/foods/meyve-sepeti-waffle.jpg",
+    "imageAlt": "Meyve Sepeti Waffle",
+    "imageSlug": "meyve-sepeti-waffle"
+  },
+  {
+    "id": 90,
+    "name": "Fırın Balık",
+    "description": "Fırında limonlu çupra veya levrek, roka garnitür ile.",
+    "calories": 460,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "fırın balık",
+    "platformSearchName": "Fırın Balık",
+    "imageUrl": "/images/foods/firin-balik.jpg",
+    "imageAlt": "Fırın Balık",
+    "imageSlug": "firin-balik"
+  },
+  {
+    "id": 91,
+    "name": "Meksika Fajita",
+    "description": "Izgara tavuk veya dana, biber, tortilla ile servis.",
+    "calories": 620,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "fajita",
+    "platformSearchName": "Fajita",
+    "imageUrl": "/images/foods/meksika-fajita.jpg",
+    "imageAlt": "Meksika Fajita",
+    "imageSlug": "meksika-fajita"
+  },
+  {
+    "id": 92,
+    "name": "Quinoa Salata",
+    "description": "Kinoa, nar, roka, ceviz, limon sos.",
+    "calories": 380,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "kinoa salata",
+    "platformSearchName": "Kinoa Salata",
+    "imageUrl": "/images/foods/quinoa-salata.jpg",
+    "imageAlt": "Quinoa Salata",
+    "imageSlug": "quinoa-salata"
+  },
+  {
+    "id": 93,
+    "name": "Lahmacun Fıstıklı (Özel)",
+    "description": "Bol Antep fıstıklı özel lahmacun varyasyonu.",
+    "calories": 310,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "lahmacun",
+    "platformSearchName": "Lahmacun",
+    "imageUrl": "/images/foods/lahmacun-fistikli-ozel.jpg",
+    "imageAlt": "Lahmacun Fıstıklı (Özel)",
+    "imageSlug": "lahmacun-fistikli-ozel"
+  },
+  {
+    "id": 94,
+    "name": "Kızarmış Kalamar",
+    "description": "Çıtır kalamar halkası, tarator sos ile.",
+    "calories": 440,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kalamar tava",
+    "platformSearchName": "Kalamar Tava",
+    "imageUrl": "/images/foods/kizarmis-kalamar.jpg",
+    "imageAlt": "Kızarmış Kalamar",
+    "imageSlug": "kizarmis-kalamar"
+  },
+  {
+    "id": 95,
+    "name": "Zeytinyağlı Yaprak Sarma",
+    "description": "Soğuk servis asma yaprağı, pirinç harçlı Ege klasiği.",
+    "calories": 260,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "yaprak sarma",
+    "platformSearchName": "Yaprak Sarma",
+    "imageUrl": "/images/foods/zeytinyagli-yaprak-sarma.jpg",
+    "imageAlt": "Zeytinyağlı Yaprak Sarma",
+    "imageSlug": "zeytinyagli-yaprak-sarma"
+  },
+  {
+    "id": 96,
+    "name": "Atom Kahvaltı",
+    "description": "Haşlanmış yumurta, pastırma, peynir, zeytin karışım tabağı.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kahvaltı tabağı",
+    "platformSearchName": "Kahvaltı Tabağı",
+    "imageUrl": "/images/foods/atom-kahvalti.jpg",
+    "imageAlt": "Atom Kahvaltı",
+    "imageSlug": "atom-kahvalti"
+  },
+  {
+    "id": 97,
+    "name": "Biftek Tava",
+    "description": "Tavada tereyağlı kızarmış dana biftek dilimleri.",
+    "calories": 720,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "büyük",
+    "yemeksepeti_query": "biftek",
+    "platformSearchName": "Biftek",
+    "imageUrl": "/images/foods/biftek-tava.jpg",
+    "imageAlt": "Biftek Tava",
+    "imageSlug": "biftek-tava"
+  },
+  {
+    "id": 98,
+    "name": "Yoğurt Çorbası",
+    "description": "Soğuk veya sıcak yayla çorbası, nane ve bulgurla.",
+    "calories": 200,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "yayla çorbası",
+    "platformSearchName": "Yayla Çorbası",
+    "imageUrl": "/images/foods/yogurt-corbasi.jpg",
+    "imageAlt": "Yoğurt Çorbası",
+    "imageSlug": "yogurt-corbasi"
+  },
+  {
+    "id": 99,
+    "name": "French Toast",
+    "description": "Yumurtalı ekmek, tarçın, akçaağaç şurubu.",
+    "calories": 480,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "french toast",
+    "platformSearchName": "French Toast",
+    "imageUrl": "/images/foods/french-toast.jpg",
+    "imageAlt": "French Toast",
+    "imageSlug": "french-toast"
+  },
+  {
+    "id": 100,
+    "name": "Kuru Köfte Tabak",
+    "description": "Kızartma köfte, patates salatası ve yoğurt ile.",
+    "calories": 560,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "kuru köfte",
+    "platformSearchName": "Kuru Köfte",
+    "imageUrl": "/images/foods/kuru-kofte-tabak.jpg",
+    "imageAlt": "Kuru Köfte Tabak",
+    "imageSlug": "kuru-kofte-tabak"
+  },
+  {
+    "id": 101,
+    "name": "Mercimek Çorbası",
+    "description": "Mercimek Çorbası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 185,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "mercimek çorbası",
+    "platformSearchName": "Mercimek Çorbası",
+    "imageUrl": "/images/foods/mercimek-corbasi.jpg",
+    "imageAlt": "Mercimek Çorbası",
+    "imageSlug": "mercimek-corbasi"
+  },
+  {
+    "id": 102,
+    "name": "Ezogelin Çorbası",
+    "description": "Ezogelin Çorbası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 160,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "baharatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "ezogelin çorbası",
+    "platformSearchName": "Ezogelin Çorbası",
+    "imageUrl": "/images/foods/ezogelin-corbasi.jpg",
+    "imageAlt": "Ezogelin Çorbası",
+    "imageSlug": "ezogelin-corbasi"
+  },
+  {
+    "id": 103,
+    "name": "Tarhana Çorbası",
+    "description": "Tarhana Çorbası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 190,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "tarhana çorbası",
+    "platformSearchName": "Tarhana Çorbası",
+    "imageUrl": "/images/foods/tarhana-corbasi.jpg",
+    "imageAlt": "Tarhana Çorbası",
+    "imageSlug": "tarhana-corbasi"
+  },
+  {
+    "id": 104,
+    "name": "Izgara Tavuk Göğsü",
+    "description": "Izgara Tavuk Göğsü — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 320,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ızgara tavuk",
+    "platformSearchName": "Izgara Tavuk",
+    "imageUrl": "/images/foods/izgara-tavuk-gogsu.jpg",
+    "imageAlt": "Izgara Tavuk Göğsü",
+    "imageSlug": "izgara-tavuk-gogsu"
+  },
+  {
+    "id": 105,
+    "name": "Fırın Tavuk But",
+    "description": "Fırın Tavuk But — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "fırın tavuk",
+    "platformSearchName": "Fırın Tavuk",
+    "imageUrl": "/images/foods/firin-tavuk-but.jpg",
+    "imageAlt": "Fırın Tavuk But",
+    "imageSlug": "firin-tavuk-but"
+  },
+  {
+    "id": 106,
+    "name": "Tavuk Şiş",
+    "description": "Tavuk Şiş — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk şiş",
+    "platformSearchName": "Tavuk Şiş",
+    "imageUrl": "/images/foods/tavuk-sis.jpg",
+    "imageAlt": "Tavuk Şiş",
+    "imageSlug": "tavuk-sis"
+  },
+  {
+    "id": 107,
+    "name": "Pirzola Kuzu",
+    "description": "Pirzola Kuzu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "büyük",
+    "yemeksepeti_query": "kuzu pirzola",
+    "platformSearchName": "Kuzu Pirzola",
+    "imageUrl": "/images/foods/pirzola-kuzu.jpg",
+    "imageAlt": "Pirzola Kuzu",
+    "imageSlug": "pirzola-kuzu"
+  },
+  {
+    "id": 108,
+    "name": "Kuzu Tandır",
+    "description": "Kuzu Tandır — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 580,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "büyük",
+    "yemeksepeti_query": "kuzu tandır",
+    "platformSearchName": "Kuzu Tandır",
+    "imageUrl": "/images/foods/kuzu-tandir.jpg",
+    "imageAlt": "Kuzu Tandır",
+    "imageSlug": "kuzu-tandir"
+  },
+  {
+    "id": 109,
+    "name": "Patlıcan Musakka",
+    "description": "Patlıcan Musakka — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 340,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "musakka",
+    "platformSearchName": "Musakka",
+    "imageUrl": "/images/foods/patlican-musakka.jpg",
+    "imageAlt": "Patlıcan Musakka",
+    "imageSlug": "patlican-musakka"
+  },
+  {
+    "id": 110,
+    "name": "Kabak Mücver (Fırın)",
+    "description": "Kabak Mücver (Fırın) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 260,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "kabak mücver",
+    "platformSearchName": "Kabak Mücver",
+    "imageUrl": "/images/foods/kabak-mucver-firin.jpg",
+    "imageAlt": "Kabak Mücver (Fırın)",
+    "imageSlug": "kabak-mucver-firin"
+  },
+  {
+    "id": 111,
+    "name": "Fasulye Pilaki",
+    "description": "Fasulye Pilaki — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 240,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "fasulye pilaki",
+    "platformSearchName": "Fasulye Pilaki",
+    "imageUrl": "/images/foods/fasulye-pilaki.jpg",
+    "imageAlt": "Fasulye Pilaki",
+    "imageSlug": "fasulye-pilaki"
+  },
+  {
+    "id": 112,
+    "name": "Barbunya Pilaki",
+    "description": "Barbunya Pilaki — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 250,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "barbunya pilaki",
+    "platformSearchName": "Barbunya Pilaki",
+    "imageUrl": "/images/foods/barbunya-pilaki.jpg",
+    "imageAlt": "Barbunya Pilaki",
+    "imageSlug": "barbunya-pilaki"
+  },
+  {
+    "id": 113,
+    "name": "Imam Bayıldı",
+    "description": "Imam Bayıldı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 280,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "imam bayıldı",
+    "platformSearchName": "İmam Bayıldı",
+    "imageUrl": "/images/foods/imam-bayildi.jpg",
+    "imageAlt": "Imam Bayıldı",
+    "imageSlug": "imam-bayildi"
+  },
+  {
+    "id": 114,
+    "name": "Zeytinyağlı Enginar",
+    "description": "Zeytinyağlı Enginar — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 210,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "enginar",
+    "platformSearchName": "Enginar",
+    "imageUrl": "/images/foods/zeytinyagli-enginar.jpg",
+    "imageAlt": "Zeytinyağlı Enginar",
+    "imageSlug": "zeytinyagli-enginar"
+  },
+  {
+    "id": 115,
+    "name": "Çoban Salata",
+    "description": "Çoban Salata — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 120,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "çoban salata",
+    "platformSearchName": "Çoban Salata",
+    "imageUrl": "/images/foods/coban-salata.jpg",
+    "imageAlt": "Çoban Salata",
+    "imageSlug": "coban-salata"
+  },
+  {
+    "id": 116,
+    "name": "Gavurdağı Salatası",
+    "description": "Gavurdağı Salatası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 180,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "baharatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "gavurdağı salatası",
+    "platformSearchName": "Gavurdağı Salatası",
+    "imageUrl": "/images/foods/gavurdagi-salatasi.jpg",
+    "imageAlt": "Gavurdağı Salatası",
+    "imageSlug": "gavurdagi-salatasi"
+  },
+  {
+    "id": 117,
+    "name": "Piyaz Antakya",
+    "description": "Piyaz Antakya — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 220,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "piyaz",
+    "platformSearchName": "Piyaz",
+    "imageUrl": "/images/foods/piyaz-antakya.jpg",
+    "imageAlt": "Piyaz Antakya",
+    "imageSlug": "piyaz-antakya"
+  },
+  {
+    "id": 118,
+    "name": "Bulgur Pilavı",
+    "description": "Bulgur Pilavı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 200,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "bulgur pilavı",
+    "platformSearchName": "Bulgur Pilavı",
+    "imageUrl": "/images/foods/bulgur-pilavi.jpg",
+    "imageAlt": "Bulgur Pilavı",
+    "imageSlug": "bulgur-pilavi"
+  },
+  {
+    "id": 119,
+    "name": "Ispanaklı Pirinç Pilavı",
+    "description": "Ispanaklı Pirinç Pilavı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 260,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "ıspanaklı pilav",
+    "platformSearchName": "Ispanaklı Pilav",
+    "imageUrl": "/images/foods/ispanakli-pirinc-pilavi.jpg",
+    "imageAlt": "Ispanaklı Pirinç Pilavı",
+    "imageSlug": "ispanakli-pirinc-pilavi"
+  },
+  {
+    "id": 120,
+    "name": "Etli Kuru Fasulye",
+    "description": "Etli Kuru Fasulye — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 480,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "etli kuru fasulye",
+    "platformSearchName": "Etli Kuru",
+    "imageUrl": "/images/foods/etli-kuru-fasulye.jpg",
+    "imageAlt": "Etli Kuru Fasulye",
+    "imageSlug": "etli-kuru-fasulye"
+  },
+  {
+    "id": 121,
+    "name": "Nohut Yahnisi",
+    "description": "Nohut Yahnisi — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 360,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "nohut yahnisi",
+    "platformSearchName": "Nohut Yahnisi",
+    "imageUrl": "/images/foods/nohut-yahnisi.jpg",
+    "imageAlt": "Nohut Yahnisi",
+    "imageSlug": "nohut-yahnisi"
+  },
+  {
+    "id": 122,
+    "name": "Etli Nohut",
+    "description": "Etli Nohut — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "etli nohut",
+    "platformSearchName": "Etli Nohut",
+    "imageUrl": "/images/foods/etli-nohut.jpg",
+    "imageAlt": "Etli Nohut",
+    "imageSlug": "etli-nohut"
+  },
+  {
+    "id": 123,
+    "name": "Pazı Yaprağı Dolması",
+    "description": "Pazı Yaprağı Dolması — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 290,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "pazı dolması",
+    "platformSearchName": "Pazı Dolması",
+    "imageUrl": "/images/foods/pazi-yapragi-dolmasi.jpg",
+    "imageAlt": "Pazı Yaprağı Dolması",
+    "imageSlug": "pazi-yapragi-dolmasi"
+  },
+  {
+    "id": 124,
+    "name": "Çiğ Köfte Dürüm",
+    "description": "Çiğ Köfte Dürüm — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 310,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "çiğ köfte",
+    "platformSearchName": "Çiğ Köfte",
+    "imageUrl": "/images/foods/cig-kofte-durum.jpg",
+    "imageAlt": "Çiğ Köfte Dürüm",
+    "imageSlug": "cig-kofte-durum"
+  },
+  {
+    "id": 125,
+    "name": "İçli Köfte (Adıyaman)",
+    "description": "İçli Köfte (Adıyaman) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 340,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "içli köfte",
+    "platformSearchName": "İçli Köfte",
+    "imageUrl": "/images/foods/icli-kofte-adiyaman.jpg",
+    "imageAlt": "İçli Köfte (Adıyaman)",
+    "imageSlug": "icli-kofte-adiyaman"
+  },
+  {
+    "id": 126,
+    "name": "Su Böreği",
+    "description": "Su Böreği — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "su böreği",
+    "platformSearchName": "Su Böreği",
+    "imageUrl": "/images/foods/su-boregi.jpg",
+    "imageAlt": "Su Böreği",
+    "imageSlug": "su-boregi"
+  },
+  {
+    "id": 127,
+    "name": "Sigara Böreği",
+    "description": "Sigara Böreği — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "sigara böreği",
+    "platformSearchName": "Sigara Böreği",
+    "imageUrl": "/images/foods/sigara-boregi.jpg",
+    "imageAlt": "Sigara Böreği",
+    "imageSlug": "sigara-boregi"
+  },
+  {
+    "id": 128,
+    "name": "Menemen",
+    "description": "Menemen — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 280,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "menemen",
+    "platformSearchName": "Menemen",
+    "imageUrl": "/images/foods/menemen.jpg",
+    "imageAlt": "Menemen",
+    "imageSlug": "menemen"
+  },
+  {
+    "id": 129,
+    "name": "Sucuklu Yumurta",
+    "description": "Sucuklu Yumurta — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "sucuklu yumurta",
+    "platformSearchName": "Sucuklu Yumurta",
+    "imageUrl": "/images/foods/sucuklu-yumurta.jpg",
+    "imageAlt": "Sucuklu Yumurta",
+    "imageSlug": "sucuklu-yumurta"
+  },
+  {
+    "id": 130,
+    "name": "Peynir Tabağı",
+    "description": "Peynir Tabağı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 350,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "peynir tabağı",
+    "platformSearchName": "Peynir Tabağı",
+    "imageUrl": "/images/foods/peynir-tabagi.png",
+    "imageAlt": "Peynir Tabağı",
+    "imageSlug": "peynir-tabagi"
+  },
+  {
+    "id": 131,
+    "name": "Ton Balıklı Salata",
+    "description": "Ton Balıklı Salata — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 280,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ton balıklı salata",
+    "platformSearchName": "Ton Balıklı",
+    "imageUrl": "/images/foods/ton-balikli-salata.jpg",
+    "imageAlt": "Ton Balıklı Salata",
+    "imageSlug": "ton-balikli-salata"
+  },
+  {
+    "id": 132,
+    "name": "Tavuklu Sezar Salata",
+    "description": "Tavuklu Sezar Salata — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 320,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "sezar salata",
+    "platformSearchName": "Sezar Salata",
+    "imageUrl": "/images/foods/tavuklu-sezar-salata.jpg",
+    "imageAlt": "Tavuklu Sezar Salata",
+    "imageSlug": "tavuklu-sezar-salata"
+  },
+  {
+    "id": 133,
+    "name": "Avokado Kase",
+    "description": "Avokado Kase — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 340,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "avokado bowl",
+    "platformSearchName": "Avokado Bowl",
+    "imageUrl": "/images/foods/avokado-kase.jpg",
+    "imageAlt": "Avokado Kase",
+    "imageSlug": "avokado-kase"
+  },
+  {
+    "id": 134,
+    "name": "Protein Salata Kasesi",
+    "description": "Protein Salata Kasesi — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 360,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "protein salata",
+    "platformSearchName": "Protein Salata",
+    "imageUrl": "/images/foods/protein-salata-kasesi.jpg",
+    "imageAlt": "Protein Salata Kasesi",
+    "imageSlug": "protein-salata-kasesi"
+  },
+  {
+    "id": 135,
+    "name": "Yeşil Smoothie Bowl",
+    "description": "Yeşil Smoothie Bowl — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 240,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "tatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "küçük",
+    "yemeksepeti_query": "smoothie bowl",
+    "platformSearchName": "Smoothie Bowl",
+    "imageUrl": "/images/foods/yesil-smoothie-bowl.jpg",
+    "imageAlt": "Yeşil Smoothie Bowl",
+    "imageSlug": "yesil-smoothie-bowl"
+  },
+  {
+    "id": 136,
+    "name": "Yunan Salatası",
+    "description": "Yunan Salatası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 220,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "yunan salatası",
+    "platformSearchName": "Yunan Salatası",
+    "imageUrl": "/images/foods/yunan-salatasi.jpg",
+    "imageAlt": "Yunan Salatası",
+    "imageSlug": "yunan-salatasi"
+  },
+  {
+    "id": 137,
+    "name": "Izgara Somon & Brokoli",
+    "description": "Izgara Somon & Brokoli — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 380,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "ızgara somon",
+    "platformSearchName": "Izgara Somon",
+    "imageUrl": "/images/foods/izgara-somon-brokoli.jpg",
+    "imageAlt": "Izgara Somon & Brokoli",
+    "imageSlug": "izgara-somon-brokoli"
+  },
+  {
+    "id": 138,
+    "name": "Tofu Sote",
+    "description": "Tofu Sote — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 260,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tofu sote",
+    "platformSearchName": "Tofu Sote",
+    "imageUrl": "/images/foods/tofu-sote.jpg",
+    "imageAlt": "Tofu Sote",
+    "imageSlug": "tofu-sote"
+  },
+  {
+    "id": 139,
+    "name": "Sebzeli Noodle (Tam Buğday)",
+    "description": "Sebzeli Noodle (Tam Buğday) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 300,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "sebzeli noodle",
+    "platformSearchName": "Sebzeli Noodle",
+    "imageUrl": "/images/foods/sebzeli-noodle-tam-bugday.jpg",
+    "imageAlt": "Sebzeli Noodle (Tam Buğday)",
+    "imageSlug": "sebzeli-noodle-tam-bugday"
+  },
+  {
+    "id": 140,
+    "name": "Barbunya Köftesi (Fırın)",
+    "description": "Barbunya Köftesi (Fırın) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 240,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "barbunya köftesi",
+    "platformSearchName": "Barbunya Köftesi",
+    "imageUrl": "/images/foods/barbunya-koftesi-firin.jpg",
+    "imageAlt": "Barbunya Köftesi (Fırın)",
+    "imageSlug": "barbunya-koftesi-firin"
+  },
+  {
+    "id": 141,
+    "name": "Margherita Pizza",
+    "description": "Margherita Pizza — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 720,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "margherita pizza",
+    "platformSearchName": "Margherita Pizza",
+    "imageUrl": "/images/foods/margherita-pizza.jpg",
+    "imageAlt": "Margherita Pizza",
+    "imageSlug": "margherita-pizza"
+  },
+  {
+    "id": 142,
+    "name": "Quattro Formaggi Pizza",
+    "description": "Quattro Formaggi Pizza — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 820,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "büyük",
+    "yemeksepeti_query": "dört peynirli pizza",
+    "platformSearchName": "Dört Peynirli",
+    "imageUrl": "/images/foods/quattro-formaggi-pizza.jpg",
+    "imageAlt": "Quattro Formaggi Pizza",
+    "imageSlug": "quattro-formaggi-pizza"
+  },
+  {
+    "id": 143,
+    "name": "Pepperoni Pizza",
+    "description": "Pepperoni Pizza — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 780,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "pepperoni pizza",
+    "platformSearchName": "Pepperoni Pizza",
+    "imageUrl": "/images/foods/pepperoni-pizza.jpg",
+    "imageAlt": "Pepperoni Pizza",
+    "imageSlug": "pepperoni-pizza"
+  },
+  {
+    "id": 144,
+    "name": "Funghi Pizza",
+    "description": "Funghi Pizza — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 680,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "mantarlı pizza",
+    "platformSearchName": "Mantarlı Pizza",
+    "imageUrl": "/images/foods/funghi-pizza.jpg",
+    "imageAlt": "Funghi Pizza",
+    "imageSlug": "funghi-pizza"
+  },
+  {
+    "id": 145,
+    "name": "Carbonara Makarna",
+    "description": "Carbonara Makarna — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 720,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "carbonara",
+    "platformSearchName": "Carbonara",
+    "imageUrl": "/images/foods/carbonara-makarna.jpg",
+    "imageAlt": "Carbonara Makarna",
+    "imageSlug": "carbonara-makarna"
+  },
+  {
+    "id": 146,
+    "name": "Bolognese Makarna",
+    "description": "Bolognese Makarna — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 690,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "bolonez makarna",
+    "platformSearchName": "Bolonez Makarna",
+    "imageUrl": "/images/foods/bolognese-makarna.jpg",
+    "imageAlt": "Bolognese Makarna",
+    "imageSlug": "bolognese-makarna"
+  },
+  {
+    "id": 147,
+    "name": "Pesto Makarna",
+    "description": "Pesto Makarna — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 640,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "pesto makarna",
+    "platformSearchName": "Pesto Makarna",
+    "imageUrl": "/images/foods/pesto-makarna.jpg",
+    "imageAlt": "Pesto Makarna",
+    "imageSlug": "pesto-makarna"
+  },
+  {
+    "id": 148,
+    "name": "Risotto Mantarlı",
+    "description": "Risotto Mantarlı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 580,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "mantarlı risotto",
+    "platformSearchName": "Mantarlı Risotto",
+    "imageUrl": "/images/foods/risotto-mantarli.jpg",
+    "imageAlt": "Risotto Mantarlı",
+    "imageSlug": "risotto-mantarli"
+  },
+  {
+    "id": 149,
+    "name": "Caprese Salata",
+    "description": "Caprese Salata — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 280,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "caprese",
+    "platformSearchName": "Caprese",
+    "imageUrl": "/images/foods/caprese-salata.jpg",
+    "imageAlt": "Caprese Salata",
+    "imageSlug": "caprese-salata"
+  },
+  {
+    "id": 150,
+    "name": "Bruschetta",
+    "description": "Bruschetta — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 220,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "bruschetta",
+    "platformSearchName": "Bruschetta",
+    "imageUrl": "/images/foods/bruschetta.jpg",
+    "imageAlt": "Bruschetta",
+    "imageSlug": "bruschetta"
+  },
+  {
+    "id": 151,
+    "name": "Tiramisu",
+    "description": "Tiramisu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "tiramisu",
+    "platformSearchName": "Tiramisu",
+    "imageUrl": "/images/foods/tiramisu.jpg",
+    "imageAlt": "Tiramisu",
+    "imageSlug": "tiramisu"
+  },
+  {
+    "id": 152,
+    "name": "Klasik Cheeseburger",
+    "description": "Klasik Cheeseburger — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 650,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "büyük",
+    "yemeksepeti_query": "cheeseburger",
+    "platformSearchName": "Cheeseburger",
+    "imageUrl": "/images/foods/klasik-cheeseburger.jpg",
+    "imageAlt": "Klasik Cheeseburger",
+    "imageSlug": "klasik-cheeseburger"
+  },
+  {
+    "id": 153,
+    "name": "Double Burger",
+    "description": "Double Burger — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 820,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "double burger",
+    "platformSearchName": "Double Burger",
+    "imageUrl": "/images/foods/double-burger.jpg",
+    "imageAlt": "Double Burger",
+    "imageSlug": "double-burger"
+  },
+  {
+    "id": 154,
+    "name": "Tavuk Burger",
+    "description": "Tavuk Burger — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 560,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk burger",
+    "platformSearchName": "Tavuk Burger",
+    "imageUrl": "/images/foods/tavuk-burger.jpg",
+    "imageAlt": "Tavuk Burger",
+    "imageSlug": "tavuk-burger"
+  },
+  {
+    "id": 155,
+    "name": "Patates Kızartması (Büyük)",
+    "description": "Patates Kızartması (Büyük) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 480,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "patates kızartması",
+    "platformSearchName": "Patates Kızartması",
+    "imageUrl": "/images/foods/patates-kizartmasi-buyuk.jpg",
+    "imageAlt": "Patates Kızartması (Büyük)",
+    "imageSlug": "patates-kizartmasi-buyuk"
+  },
+  {
+    "id": 156,
+    "name": "Soğan Halkası",
+    "description": "Soğan Halkası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "soğan halkası",
+    "platformSearchName": "Soğan Halkası",
+    "imageUrl": "/images/foods/sogan-halkasi.jpg",
+    "imageAlt": "Soğan Halkası",
+    "imageSlug": "sogan-halkasi"
+  },
+  {
+    "id": 157,
+    "name": "Hot Dog",
+    "description": "Hot Dog — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "hot dog",
+    "platformSearchName": "Hot Dog",
+    "imageUrl": "/images/foods/hot-dog.png",
+    "imageAlt": "Hot Dog",
+    "imageSlug": "hot-dog"
+  },
+  {
+    "id": 158,
+    "name": "Tavuk Kanat (Acılı)",
+    "description": "Tavuk Kanat (Acılı) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 540,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "acılı kanat",
+    "platformSearchName": "Acılı Kanat",
+    "imageUrl": "/images/foods/tavuk-kanat-acili.jpg",
+    "imageAlt": "Tavuk Kanat (Acılı)",
+    "imageSlug": "tavuk-kanat-acili"
+  },
+  {
+    "id": 159,
+    "name": "Nugget Menü",
+    "description": "Nugget Menü — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 580,
+    "cuisine": "Fast Food",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk nugget",
+    "platformSearchName": "Tavuk Nugget",
+    "imageUrl": "/images/foods/nugget-menu.jpg",
+    "imageAlt": "Nugget Menü",
+    "imageSlug": "nugget-menu"
+  },
+  {
+    "id": 160,
+    "name": "Sushi Set (Karışık)",
+    "description": "Sushi Set (Karışık) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 480,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "sushi set",
+    "platformSearchName": "Sushi Set",
+    "imageUrl": "/images/foods/sushi-set-karisik.jpg",
+    "imageAlt": "Sushi Set (Karışık)",
+    "imageSlug": "sushi-set-karisik"
+  },
+  {
+    "id": 161,
+    "name": "California Roll",
+    "description": "California Roll — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 360,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "premium",
+    "portion": "küçük",
+    "yemeksepeti_query": "california roll",
+    "platformSearchName": "California Roll",
+    "imageUrl": "/images/foods/california-roll.jpg",
+    "imageAlt": "California Roll",
+    "imageSlug": "california-roll"
+  },
+  {
+    "id": 162,
+    "name": "Ramen Tavuklu",
+    "description": "Ramen Tavuklu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 620,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "tavuklu ramen",
+    "platformSearchName": "Tavuklu Ramen",
+    "imageUrl": "/images/foods/ramen-tavuklu.jpg",
+    "imageAlt": "Ramen Tavuklu",
+    "imageSlug": "ramen-tavuklu"
+  },
+  {
+    "id": 163,
+    "name": "Udon Çorbası",
+    "description": "Udon Çorbası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "udon",
+    "platformSearchName": "Udon",
+    "imageUrl": "/images/foods/udon-corbasi.jpg",
+    "imageAlt": "Udon Çorbası",
+    "imageSlug": "udon-corbasi"
+  },
+  {
+    "id": 164,
+    "name": "Teriyaki Tavuk Bowl",
+    "description": "Teriyaki Tavuk Bowl — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "teriyaki tavuk",
+    "platformSearchName": "Teriyaki Tavuk",
+    "imageUrl": "/images/foods/teriyaki-tavuk-bowl.jpg",
+    "imageAlt": "Teriyaki Tavuk Bowl",
+    "imageSlug": "teriyaki-tavuk-bowl"
+  },
+  {
+    "id": 165,
+    "name": "Pad Thai Karides",
+    "description": "Pad Thai Karides — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 560,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tatlı",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "pad thai",
+    "platformSearchName": "Pad Thai",
+    "imageUrl": "/images/foods/pad-thai-karides.jpg",
+    "imageAlt": "Pad Thai Karides",
+    "imageSlug": "pad-thai-karides"
+  },
+  {
+    "id": 166,
+    "name": "Kung Pao Tavuk",
+    "description": "Kung Pao Tavuk — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 580,
+    "cuisine": "Uzak Doğu",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kung pao tavuk",
+    "platformSearchName": "Kung Pao",
+    "imageUrl": "/images/foods/kung-pao-tavuk.jpg",
+    "imageAlt": "Kung Pao Tavuk",
+    "imageSlug": "kung-pao-tavuk"
+  },
+  {
+    "id": 167,
+    "name": "Chicken Taco (3'lü)",
+    "description": "Chicken Taco (3'lü) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 490,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "taco tavuk",
+    "platformSearchName": "Taco Tavuk",
+    "imageUrl": "/images/foods/chicken-taco-3-lu.jpg",
+    "imageAlt": "Chicken Taco (3'lü)",
+    "imageSlug": "chicken-taco-3-lu"
+  },
+  {
+    "id": 168,
+    "name": "Beef Taco",
+    "description": "Beef Taco — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "taco dana",
+    "platformSearchName": "Taco Dana",
+    "imageUrl": "/images/foods/beef-taco.jpg",
+    "imageAlt": "Beef Taco",
+    "imageSlug": "beef-taco"
+  },
+  {
+    "id": 169,
+    "name": "Burrito Tavuklu",
+    "description": "Burrito Tavuklu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 620,
+    "cuisine": "Meksika",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "tavuklu burrito",
+    "platformSearchName": "Tavuklu Burrito",
+    "imageUrl": "/images/foods/burrito-tavuklu.jpg",
+    "imageAlt": "Burrito Tavuklu",
+    "imageSlug": "burrito-tavuklu"
+  },
+  {
+    "id": 170,
+    "name": "Nachos Peynirli",
+    "description": "Nachos Peynirli — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 540,
+    "cuisine": "Meksika",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "nachos",
+    "platformSearchName": "Nachos",
+    "imageUrl": "/images/foods/nachos-peynirli.jpg",
+    "imageAlt": "Nachos Peynirli",
+    "imageSlug": "nachos-peynirli"
+  },
+  {
+    "id": 171,
+    "name": "Çiftlik Salata Tavuklu",
+    "description": "Çiftlik Salata Tavuklu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 300,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "çiftlik salata",
+    "platformSearchName": "Çiftlik Salata",
+    "imageUrl": "/images/foods/ciftlik-salata-tavuklu.jpg",
+    "imageAlt": "Çiftlik Salata Tavuklu",
+    "imageSlug": "ciftlik-salata-tavuklu"
+  },
+  {
+    "id": 172,
+    "name": "Izgara Hellim Peynirli Salata",
+    "description": "Izgara Hellim Peynirli Salata — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 310,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "hellim salata",
+    "platformSearchName": "Hellim Salata",
+    "imageUrl": "/images/foods/izgara-hellim-peynirli-salata.jpg",
+    "imageAlt": "Izgara Hellim Peynirli Salata",
+    "imageSlug": "izgara-hellim-peynirli-salata"
+  },
+  {
+    "id": 173,
+    "name": "Levrek Izgara",
+    "description": "Levrek Izgara — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 340,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı",
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "levrek ızgara",
+    "platformSearchName": "Levrek Izgara",
+    "imageUrl": "/images/foods/levrek-izgara.jpg",
+    "imageAlt": "Levrek Izgara",
+    "imageSlug": "levrek-izgara"
+  },
+  {
+    "id": 174,
+    "name": "Çupra Tava",
+    "description": "Çupra Tava — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "çupra tava",
+    "platformSearchName": "Çupra Tava",
+    "imageUrl": "/images/foods/cupra-tava.jpg",
+    "imageAlt": "Çupra Tava",
+    "imageSlug": "cupra-tava"
+  },
+  {
+    "id": 175,
+    "name": "Karides Güveç",
+    "description": "Karides Güveç — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 380,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "karides güveç",
+    "platformSearchName": "Karides Güveç",
+    "imageUrl": "/images/foods/karides-guvec.jpg",
+    "imageAlt": "Karides Güveç",
+    "imageSlug": "karides-guvec"
+  },
+  {
+    "id": 176,
+    "name": "Midye Tava",
+    "description": "Midye Tava — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 360,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "midye tava",
+    "platformSearchName": "Midye Tava",
+    "imageUrl": "/images/foods/midye-tava.jpg",
+    "imageAlt": "Midye Tava",
+    "imageSlug": "midye-tava"
+  },
+  {
+    "id": 177,
+    "name": "Balık Kokoreç",
+    "description": "Balık Kokoreç — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 390,
+    "cuisine": "Deniz Ürünleri",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "balık ekmek",
+    "platformSearchName": "Balık Ekmek",
+    "imageUrl": "/images/foods/balik-kokorec.jpg",
+    "imageAlt": "Balık Kokoreç",
+    "imageSlug": "balik-kokorec"
+  },
+  {
+    "id": 178,
+    "name": "Humus & Pide",
+    "description": "Humus & Pide — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 320,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle",
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "humus meze",
+    "platformSearchName": "Humus Meze",
+    "imageUrl": "/images/foods/humus-pide.jpg",
+    "imageAlt": "Humus & Pide",
+    "imageSlug": "humus-pide"
+  },
+  {
+    "id": 179,
+    "name": "Falafel Dürüm",
+    "description": "Falafel Dürüm — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 460,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "vegan"
+    ],
+    "mood": [
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "falafel",
+    "platformSearchName": "Falafel",
+    "imageUrl": "/images/foods/falafel-durum.jpg",
+    "imageAlt": "Falafel Dürüm",
+    "imageSlug": "falafel-durum"
+  },
+  {
+    "id": 180,
+    "name": "Şavuşka Salata Tahinli",
+    "description": "Şavuşka Salata Tahinli — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 290,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tatlı",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "şavuşka salata",
+    "platformSearchName": "Şavuşka Salata",
+    "imageUrl": "/images/foods/savuska-salata-tahinli.jpg",
+    "imageAlt": "Şavuşka Salata Tahinli",
+    "imageSlug": "savuska-salata-tahinli"
+  },
+  {
+    "id": 181,
+    "name": "Şiş Tavuk Kebap Duble",
+    "description": "Şiş Tavuk Kebap Duble — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Orta Doğu",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "şiş tavuk",
+    "platformSearchName": "Şiş Tavuk",
+    "imageUrl": "/images/foods/sis-tavuk-kebap-duble.jpg",
+    "imageAlt": "Şiş Tavuk Kebap Duble",
+    "imageSlug": "sis-tavuk-kebap-duble"
+  },
+  {
+    "id": 182,
+    "name": "Künefe Peynirli",
+    "description": "Künefe Peynirli — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 480,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "künefe",
+    "platformSearchName": "Künefe",
+    "imageUrl": "/images/foods/kunefe-peynirli.jpg",
+    "imageAlt": "Künefe Peynirli",
+    "imageSlug": "kunefe-peynirli"
+  },
+  {
+    "id": 183,
+    "name": "Sütlaç Fırın",
+    "description": "Sütlaç Fırın — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 280,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "sütlaç",
+    "platformSearchName": "Sütlaç",
+    "imageUrl": "/images/foods/sutlac-firin.jpg",
+    "imageAlt": "Sütlaç Fırın",
+    "imageSlug": "sutlac-firin"
+  },
+  {
+    "id": 184,
+    "name": "Kazandibi",
+    "description": "Kazandibi — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 320,
+    "cuisine": "Tatlı",
+    "meal": [
+      "Atıştırmalık"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tatlı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "kazandibi",
+    "platformSearchName": "Kazandibi",
+    "imageUrl": "/images/foods/kazandibi.jpg",
+    "imageAlt": "Kazandibi",
+    "imageSlug": "kazandibi"
+  },
+  {
+    "id": 185,
+    "name": "Mozzarella Peynirli Pizza",
+    "description": "Mozzarella Peynirli Pizza — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 700,
+    "cuisine": "İtalyan",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "mozzarella pizza",
+    "platformSearchName": "Mozzarella Pizza",
+    "imageUrl": "/images/foods/mozzarella-peynirli-pizza.jpg",
+    "imageAlt": "Mozzarella Peynirli Pizza",
+    "imageSlug": "mozzarella-peynirli-pizza"
+  },
+  {
+    "id": 186,
+    "name": "Kıymalı Börek",
+    "description": "Kıymalı Börek — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 440,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "kıymalı börek",
+    "platformSearchName": "Kıymalı Börek",
+    "imageUrl": "/images/foods/kiymali-borek.jpg",
+    "imageAlt": "Kıymalı Börek",
+    "imageSlug": "kiymali-borek"
+  },
+  {
+    "id": 187,
+    "name": "Ispanaklı Börek",
+    "description": "Ispanaklı Börek — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 380,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı",
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ıspanaklı börek",
+    "platformSearchName": "Ispanaklı Börek",
+    "imageUrl": "/images/foods/ispanakli-borek.jpg",
+    "imageAlt": "Ispanaklı Börek",
+    "imageSlug": "ispanakli-borek"
+  },
+  {
+    "id": 188,
+    "name": "Karnıyarık Kıymalı",
+    "description": "Karnıyarık Kıymalı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 420,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "baharatlı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "karnıyarık",
+    "platformSearchName": "Karnıyarık",
+    "imageUrl": "/images/foods/karniyarik-kiymali.jpg",
+    "imageAlt": "Karnıyarık Kıymalı",
+    "imageSlug": "karniyarik-kiymali"
+  },
+  {
+    "id": 189,
+    "name": "Kuru Patlıcan Dolması Kıymalı",
+    "description": "Kuru Patlıcan Dolması Kıymalı — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 400,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "patlıcan dolması",
+    "platformSearchName": "Patlıcan Dolması",
+    "imageUrl": "/images/foods/kuru-patlican-dolmasi-kiymali.jpg",
+    "imageAlt": "Kuru Patlıcan Dolması Kıymalı",
+    "imageSlug": "kuru-patlican-dolmasi-kiymali"
+  },
+  {
+    "id": 190,
+    "name": "Mücver Tabağı Yoğurtlu",
+    "description": "Mücver Tabağı Yoğurtlu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 290,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "mücver",
+    "platformSearchName": "Mücver",
+    "imageUrl": "/images/foods/mucver-tabagi-yogurtlu.jpg",
+    "imageAlt": "Mücver Tabağı Yoğurtlu",
+    "imageSlug": "mucver-tabagi-yogurtlu"
+  },
+  {
+    "id": 191,
+    "name": "Ali Nazik",
+    "description": "Ali Nazik — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 480,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "ali nazik",
+    "platformSearchName": "Ali Nazik",
+    "imageUrl": "/images/foods/ali-nazik.jpg",
+    "imageAlt": "Ali Nazik",
+    "imageSlug": "ali-nazik"
+  },
+  {
+    "id": 192,
+    "name": "Hünkar Beğendi (Küçük Pors.)",
+    "description": "Hünkar Beğendi (Küçük Pors.) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "premium",
+    "portion": "orta",
+    "yemeksepeti_query": "hünkar beğendi",
+    "platformSearchName": "Hünkar Beğendi",
+    "imageUrl": "/images/foods/hunkar-begendi-kucuk-pors.jpg",
+    "imageAlt": "Hünkar Beğendi (Küçük Pors.)",
+    "imageSlug": "hunkar-begendi-kucuk-pors"
+  },
+  {
+    "id": 193,
+    "name": "Mantılı Yoğurt (Kayseri Mantı Küçük)",
+    "description": "Mantılı Yoğurt (Kayseri Mantı Küçük) — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 340,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "mantı küçük porsiyon",
+    "platformSearchName": "Mantı Küçük",
+    "imageUrl": "/images/foods/mantili-yogurt-kayseri-manti-kucuk.jpg",
+    "imageAlt": "Mantılı Yoğurt (Kayseri Mantı Küçük)",
+    "imageSlug": "mantili-yogurt-kayseri-manti-kucuk"
+  },
+  {
+    "id": 194,
+    "name": "Tavuk Döner Dürüm",
+    "description": "Tavuk Döner Dürüm — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 520,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam",
+      "Atıştırmalık"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk döner dürüm",
+    "platformSearchName": "Tavuk Döner",
+    "imageUrl": "/images/foods/tavuk-durum.jpg",
+    "imageAlt": "Tavuk Döner Dürüm",
+    "imageSlug": "tavuk-durum"
+  },
+  {
+    "id": 195,
+    "name": "Et Döner Porsiyon",
+    "description": "Et Döner Porsiyon — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 640,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "tuzlu",
+      "yağlı"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "et döner",
+    "platformSearchName": "Et Döner",
+    "imageUrl": "/images/foods/et-doner.jpg",
+    "imageAlt": "Et Döner Porsiyon",
+    "imageSlug": "et-doner"
+  },
+  {
+    "id": 196,
+    "name": "Adana Kebap Yarım Pors.",
+    "description": "Adana Kebap Yarım Pors. — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 460,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "adana kebap küçük",
+    "platformSearchName": "Adana Kebap",
+    "imageUrl": "/images/foods/adana-kebap-yarim-pors.jpg",
+    "imageAlt": "Adana Kebap Yarım Pors.",
+    "imageSlug": "adana-kebap-yarim-pors"
+  },
+  {
+    "id": 197,
+    "name": "Yoğurtlu Çorba Tavuklu",
+    "description": "Yoğurtlu Çorba Tavuklu — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 220,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "yayla çorbası tavuklu",
+    "platformSearchName": "Yayla Çorbası",
+    "imageUrl": "/images/foods/yogurtlu-corba-tavuklu.jpg",
+    "imageAlt": "Yoğurtlu Çorba Tavuklu",
+    "imageSlug": "yogurtlu-corba-tavuklu"
+  },
+  {
+    "id": 198,
+    "name": "Sebzeli Tavuk Güveci",
+    "description": "Sebzeli Tavuk Güveci — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 360,
+    "cuisine": "Türk",
+    "meal": [
+      "Akşam"
+    ],
+    "diet": [
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "orta",
+    "yemeksepeti_query": "tavuk güveç",
+    "platformSearchName": "Tavuk Güveç",
+    "imageUrl": "/images/foods/sebzeli-tavuk-guveci.jpg",
+    "imageAlt": "Sebzeli Tavuk Güveci",
+    "imageSlug": "sebzeli-tavuk-guveci"
+  },
+  {
+    "id": 199,
+    "name": "Yoğurtlu Semizotu Salatası",
+    "description": "Yoğurtlu Semizotu Salatası — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 180,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Öğle"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "ferahlatıcı"
+    ],
+    "budget": "ucuz",
+    "portion": "küçük",
+    "yemeksepeti_query": "semizotu salatası",
+    "platformSearchName": "Semizotu Salatası",
+    "imageUrl": "/images/foods/yogurtlu-semizotu-salatasi.jpg",
+    "imageAlt": "Yoğurtlu Semizotu Salatası",
+    "imageSlug": "yogurtlu-semizotu-salatasi"
+  },
+  {
+    "id": 200,
+    "name": "Lor Peynirli Omlet",
+    "description": "Lor Peynirli Omlet — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 240,
+    "cuisine": "Sağlıklı",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen",
+      "glutensiz"
+    ],
+    "mood": [
+      "tuzlu",
+      "ferahlatıcı"
+    ],
+    "budget": "orta",
+    "portion": "küçük",
+    "yemeksepeti_query": "lor peynirli omlet",
+    "platformSearchName": "Lor Peynirli",
+    "imageUrl": "/images/foods/lor-peynirli-omlet.jpg",
+    "imageAlt": "Lor Peynirli Omlet",
+    "imageSlug": "lor-peynirli-omlet"
+  },
+  {
+    "id": 201,
+    "name": "Simit & Beyaz Peynir",
+    "description": "Simit & Beyaz Peynir — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 410,
+    "cuisine": "Türk",
+    "meal": [
+      "Kahvaltı"
+    ],
+    "diet": [
+      "vejetaryen"
+    ],
+    "mood": [
+      "tuzlu"
+    ],
+    "budget": "ucuz",
+    "portion": "orta",
+    "yemeksepeti_query": "simit kahvaltı",
+    "platformSearchName": "Simit Kahvaltı",
+    "imageUrl": "/images/foods/simit-beyaz-peynir.jpg",
+    "imageAlt": "Simit & Beyaz Peynir",
+    "imageSlug": "simit-beyaz-peynir"
+  },
+  {
+    "id": 202,
+    "name": "Çiğköfte Lahmacun Menü",
+    "description": "Çiğköfte Lahmacun Menü — popüler teslimat menülerinde sık aranan lezzet.",
+    "calories": 720,
+    "cuisine": "Türk",
+    "meal": [
+      "Öğle",
+      "Akşam"
+    ],
+    "diet": [],
+    "mood": [
+      "baharatlı",
+      "tuzlu"
+    ],
+    "budget": "orta",
+    "portion": "büyük",
+    "yemeksepeti_query": "lahmacun menü",
+    "platformSearchName": "Lahmacun Menü",
+    "imageUrl": "/images/foods/cigkofte-lahmacun-menu.jpg",
+    "imageAlt": "Çiğköfte Lahmacun Menü",
+    "imageSlug": "cigkofte-lahmacun-menu"
+  }
+]
