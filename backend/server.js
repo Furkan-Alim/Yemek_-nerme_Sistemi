@@ -33,18 +33,28 @@ const allowedOrigins = (
   .map((s) => s.trim())
   .filter(Boolean);
 
+function corsAllowed(origin) {
+  if (!origin) return true;
+  if (allowedOrigins.length === 0) return true;
+  if (allowedOrigins.includes(origin)) return true;
+  try {
+    const u = new URL(origin);
+    if (
+      u.protocol === "https:" &&
+      (u.hostname === "localhost" || u.hostname.endsWith(".vercel.app"))
+    ) {
+      return true;
+    }
+  } catch {
+    /* geçersiz Origin */
+  }
+  return false;
+}
+
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin) {
-        return callback(null, true);
-      }
-      if (allowedOrigins.length === 0) {
-        return callback(null, true);
-      }
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
+      if (corsAllowed(origin)) return callback(null, true);
       return callback(null, false);
     },
   })
