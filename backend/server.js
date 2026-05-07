@@ -362,8 +362,10 @@ app.get("/api/stats", requireAuth, async (req, res) => {
 });
 
 const PORT = process.env.PORT || 4000;
-app.listen(PORT, async () => {
-  await ensureAuthSchema();
+app.listen(PORT, () => {
   console.log(`[server] http://localhost:${PORT} üzerinde çalışıyor`);
-  await testConnection();
+  (async () => {
+    await ensureAuthSchema();
+    await testConnection();
+  })().catch((err) => console.error("[boot]", err));
 });

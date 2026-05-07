@@ -1,6 +1,16 @@
 const TOKEN_KEY = "yemek_oneri_token";
-const API_URL =
-  import.meta.env.VITE_API_URL || "https://yemek-onerme-backend.onrender.com";
+
+const DEFAULT_API = "https://yemek-onerme-backend.onrender.com";
+
+function resolveApiUrl() {
+  const raw = String(import.meta.env.VITE_API_URL || "").trim().replace(/\/$/, "");
+  if (!raw) return DEFAULT_API;
+  // Vercel adresi yazılırsa /api istekleri yanlışlıkla statik siteye gider (404).
+  if (raw.includes("vercel.app")) return DEFAULT_API;
+  return raw;
+}
+
+const API_URL = resolveApiUrl();
 
 export function getToken() {
   try {

@@ -28,9 +28,8 @@ export function AuthProvider({ children }) {
   }, [refreshUser]);
 
   const login = async (email, password) => {
-    const res = await fetch("/api/auth/login", {
+    const res = await apiFetch("/api/auth/login", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
     });
     const data = await res.json().catch(() => ({}));
@@ -40,9 +39,8 @@ export function AuthProvider({ children }) {
   };
 
   const register = async (email, password, name) => {
-    const res = await fetch("/api/auth/register", {
+    const res = await apiFetch("/api/auth/register", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password, name: name || undefined }),
     });
     const data = await res.json().catch(() => ({}));

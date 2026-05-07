@@ -11,11 +11,15 @@ if (!connectionString) {
   );
 }
 
+const isSupabase = Boolean(connectionString?.includes("supabase"));
+
 export const pool = new pg.Pool({
   connectionString,
   max: 10,
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 15000,
+  connectionTimeoutMillis: 25000,
+  // Supabase her zaman TLS; URI'de sslmode=require yoksa yine bağlanabilsin diye:
+  ...(isSupabase ? { ssl: { rejectUnauthorized: false } } : {}),
 });
 
 export async function testConnection() {
